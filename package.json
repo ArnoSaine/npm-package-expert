@@ -1,0 +1,29 @@
+{
+  "name": "npm-package-expert",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "build": "babel src --out-dir lib --source-maps",
+    "dev": "npm run build -- --watch",
+    "start": "babel-node ."
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArnoSaine/js-kurssi-harjoitus-3.1.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArnoSaine/js-kurssi-harjoitus-3.1/issues"
+  },
+  "homepage": "https://github.com/ArnoSaine/js-kurssi-harjoitus-3.1#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.49",
+    "@babel/core": "^7.0.0-beta.49",
+    "@babel/node": "^7.0.0-beta.49",
+    "@babel/preset-env": "^7.0.0-beta.49",
+    "@babel/preset-stage-3": "^7.0.0-beta.49",
+    "koa": "^2.5.1",
+    "koa-static": "^4.0.3"
+  }
+}
