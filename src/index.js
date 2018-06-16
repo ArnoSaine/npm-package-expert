@@ -1,5 +1,7 @@
 const button = (onClick, children) =>
-  `<button onClick="${onClick}">${children}</button>`;
+  `<button onClick="${onClick.replace(/"/g, '&quot;')}">
+    ${children}
+  </button>`;
 
 const h1 = children => `<h1>${children}</h1>`;
 
