@@ -30,4 +30,6 @@ class App {
   }
 }
 
+// Moduulitiedoston sisällä muuttujat eivät ole globaaleja. Asetetaan globaali
+// `app`-muuttuja, jotta HTML-koodista voidaan kutsua sen metodeja.
 global.app = new App(document.getElementById('root'));
