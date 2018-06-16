@@ -1,7 +1,6 @@
-const button = (onClick, children) =>
-  `<button onClick="${onClick}">${children}</button>`;
-
-const h1 = children => `<h1>${children}</h1>`;
+import 'bootstrap/dist/css/bootstrap.min.css';
+import button from './button';
+import h1 from './h1';
 
 class App {
   constructor(root) {
@@ -21,12 +20,14 @@ class App {
   }
   render() {
     return `
-      ${h1('Counter')}
-      <div>${this.state.counter}</div>
-      ${button('app.decrease()', '-')}
-      ${button('app.increase()', '+')}
+      <div class="container-fluid">
+        ${h1('Counter')}
+        <div>${this.state.counter}</div>
+        ${button('app.decrease()', '-')}
+        ${button('app.increase()', '+')}
+      </div>
     `;
   }
 }
 
-const app = new App(document.getElementById('root'));
+global.app = new App(document.getElementById('root'));
