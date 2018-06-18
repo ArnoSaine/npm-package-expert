@@ -10,6 +10,12 @@ class App {
     this.root = root;
     this.state = { counter: 0 };
     this.setState();
+    this.fetchTopPackages();
+  }
+  fetchTopPackages() {
+    fetch('/api/top-packages.json')
+      .then(response => response.json())
+      .then(topPackages => this.setState({ topPackages }));
   }
   setState(nextState) {
     this.state = { ...this.state, ...nextState };
@@ -22,6 +28,9 @@ class App {
     this.setState({ counter: this.state.counter - 1 });
   }
   render() {
+    if (!this.state.topPackages) {
+      return 'Loading...';
+    }
     return `
       ${h1('Counter')}
       <div>${this.state.counter}</div>
