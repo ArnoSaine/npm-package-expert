@@ -1,6 +1,6 @@
-export default (onClick, children) =>
+export default ({ children, onClick, style }) =>
   `<button
-    class="btn btn-primary"
+    class="btn btn-${style}"
     onClick="${onClick.replace(/"/g, '&quot;')}"
   >
     ${children}
