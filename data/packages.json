@@ -1,1 +1,342 @@
-[]
+[
+  {
+    "name": "bootstrap",
+    "version": "5.2.1",
+    "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+    "stats": {
+      "lastRelease": 1662564984062,
+      "quality": 0.6372745881761261,
+      "popularity": 0.7345148305067948,
+      "maintenance": 0.3333333333333333,
+      "dependencies": 0,
+      "dependents": 11177,
+      "versions": 54,
+      "weeklyDownloads": 4646453,
+      "openIssues": 0,
+      "openPullRequests": 0
+    }
+  },
+  {
+    "name": "live-server",
+    "version": "1.2.2",
+    "description": "simple development http server with live reload capability",
+    "stats": {
+      "lastRelease": 1651082975151,
+      "quality": 0.9061675235944554,
+      "popularity": 0.3756857011280461,
+      "maintenance": 0.3155582790655201,
+      "dependencies": 13,
+      "dependents": 255,
+      "versions": 24,
+      "weeklyDownloads": 102091,
+      "openIssues": 0,
+      "openPullRequests": 0
+    }
+  },
+  {
+    "name": "preact",
+    "version": "10.11.0",
+    "description": "Fast 3kb React-compatible Virtual DOM library.",
+    "stats": {
+      "lastRelease": 1662971857413,
+      "quality": 0.6393767165082777,
+      "popularity": 0.5148998773619988,
+      "maintenance": 0.3333333333333333,
+      "dependencies": 0,
+      "dependents": 1470,
+      "versions": 207,
+      "weeklyDownloads": 1692038,
+      "openIssues": 0,
+      "openPullRequests": 0
+    }
+  },
+  {
+    "name": "vue-js-modal",
+    "version": "2.0.1",
+    "description": "Modal Component for Vue.js",
+    "stats": {
+      "lastRelease": 1627921455462,
+      "quality": 0.9849417035796423,
+      "popularity": 0.2512458263141828,
+      "maintenance": 0.22453878275742775,
+      "dependencies": 1,
+      "dependents": 185,
+      "versions": 70,
+      "weeklyDownloads": 110596,
+      "openIssues": 0,
+      "openPullRequests": 0
+    }
+  },
+  {
+    "name": "cropperjs",
+    "version": "1.5.12",
+    "description": "JavaScript image cropper.",
+    "stats": {
+      "lastRelease": 1623485155901,
+      "quality": 0.5912819799114905,
+      "popularity": 0.4053267864479384,
+      "maintenance": 0.33119414756305154,
+      "dependencies": 0,
+      "dependents": 585,
+      "versions": 68,
+      "weeklyDownloads": 476572,
+      "openIssues": 0,
+      "openPullRequests": 0
+    }
+  },
+  {
+    "name": "ng-mocks",
+    "version": "14.2.3",
+    "description": "An Angular testing library for creating mock services, components, directives, pipes and modules in unit tests. It provides shallow rendering, precise stubs to fake child dependencies. ng-mocks works with Angular 5 6 7 8 9 10 11 12 13 14 15, jasmine and j",
+    "stats": {
+      "lastRelease": 1664035108196,
+      "quality": 0.987274588176126,
+      "popularity": 0.15179160808132908,
+      "maintenance": 0.3333333333333333,
+      "dependencies": 0,
+      "dependents": 8,
+      "versions": 148,
+      "weeklyDownloads": 263712,
+      "openIssues": 0,
+      "openPullRequests": 0
+    }
+  },
+  {
+    "name": "uploader",
+    "version": "1.48.0",
+    "description": "File Upload UI Widget — Lightweight & supports: drag and drop, multiple file uploads, image cropping, customization, and more 🚀 Comes with Cloud Storage 🌐",
+    "stats": {
+      "lastRelease": 1660590671318,
+      "quality": 0.987274588176126,
+      "popularity": 0.13530868334752344,
+      "maintenance": 0.3333333333333333,
+      "dependencies": 3,
+      "dependents": 4,
+      "versions": 137,
+      "weeklyDownloads": 10780,
+      "openIssues": 0,
+      "openPullRequests": 0
+    }
+  },
+  {
+    "name": "yo",
+    "version": "4.3.0",
+    "description": "CLI tool for running Yeoman generators",
+    "stats": {
+      "lastRelease": 1627744860681,
+      "quality": 0.5592582305887781,
+      "popularity": 0.43385987459153863,
+      "maintenance": 0.25293437959701903,
+      "dependencies": 32,
+      "dependents": 276,
+      "versions": 40,
+      "weeklyDownloads": 90773,
+      "openIssues": 0,
+      "openPullRequests": 0
+    }
+  },
+  {
+    "name": "vue-notification",
+    "version": "1.3.20",
+    "description": "Vue.js Notification Library",
+    "stats": {
+      "lastRelease": 1572375443890,
+      "quality": 0.9457829678475245,
+      "popularity": 0.21238621863972867,
+      "maintenance": 0.21675937556901906,
+      "dependencies": 0,
+      "dependents": 126,
+      "versions": 32,
+      "weeklyDownloads": 62223,
+      "openIssues": 0,
+      "openPullRequests": 0
+    }
+  },
+  {
+    "name": "@compodoc/live-server",
+    "version": "1.2.3",
+    "description": "Simple development http server with live reload capability",
+    "stats": {
+      "lastRelease": 1641810514179,
+      "quality": 0.9678914203994579,
+      "popularity": 0.16013754374527456,
+      "maintenance": 0.265299455233511,
+      "dependencies": 14,
+      "dependents": 6,
+      "versions": 2,
+      "weeklyDownloads": 313413,
+      "openIssues": 0,
+      "openPullRequests": 0
+    }
+  },
+  {
+    "name": "@juggle/resize-observer",
+    "version": "3.4.0",
+    "description": "Polyfills the ResizeObserver API and supports box size options from the latest spec",
+    "stats": {
+      "lastRelease": 1660850445324,
+      "quality": 0.6395281716048529,
+      "popularity": 0.29685789875984614,
+      "maintenance": 0.3333333333333333,
+      "dependencies": 0,
+      "dependents": 438,
+      "versions": 63,
+      "weeklyDownloads": 1308792,
+      "openIssues": 0,
+      "openPullRequests": 0
+    }
+  },
+  {
+    "name": "viewerjs",
+    "version": "1.10.5",
+    "description": "JavaScript image viewer.",
+    "stats": {
+      "lastRelease": 1649147480292,
+      "quality": 0.6393767165082777,
+      "popularity": 0.27743535373264727,
+      "maintenance": 0.32927594677671435,
+      "dependencies": 0,
+      "dependents": 439,
+      "versions": 54,
+      "weeklyDownloads": 42530,
+      "openIssues": 0,
+      "openPullRequests": 0
+    }
+  },
+  {
+    "name": "missionlog",
+    "version": "1.8.3",
+    "description": "🚀 lightweight TypeScript logger • level based filtering and tagging • weighs in at 500 bytes",
+    "stats": {
+      "lastRelease": 1646050299478,
+      "quality": 0.9953961613953247,
+      "popularity": 0.05707726702420196,
+      "maintenance": 0.33091493756385043,
+      "dependencies": 2,
+      "dependents": 17,
+      "versions": 102,
+      "weeklyDownloads": 443,
+      "openIssues": 0,
+      "openPullRequests": 0
+    }
+  },
+  {
+    "name": "generator-angular-fullstack",
+    "version": "5.0.0-rc.4",
+    "description": "Yeoman generator for creating MEAN stack applications, using MongoDB, Express, AngularJS, and Node",
+    "stats": {
+      "lastRelease": 1533978957510,
+      "quality": 0.8913008857403497,
+      "popularity": 0.18879528197157172,
+      "maintenance": 0.21675937556901906,
+      "dependencies": 23,
+      "dependents": 0,
+      "versions": 112,
+      "weeklyDownloads": 211,
+      "openIssues": 0,
+      "openPullRequests": 0
+    }
+  },
+  {
+    "name": "generator-react-webpack",
+    "version": "3.3.4",
+    "description": "Yeoman generator for using React with Webpack via Babel",
+    "stats": {
+      "lastRelease": 1470999749205,
+      "quality": 0.9194169433545607,
+      "popularity": 0.16511229556855267,
+      "maintenance": 0.21675937556901906,
+      "dependencies": 7,
+      "dependents": 7,
+      "versions": 68,
+      "weeklyDownloads": 33,
+      "openIssues": 0,
+      "openPullRequests": 0
+    }
+  },
+  {
+    "name": "local-web-server",
+    "version": "5.2.1",
+    "description": "A lean, modular web server for rapid full-stack development",
+    "stats": {
+      "lastRelease": 1653750079807,
+      "quality": 0.6078754352789835,
+      "popularity": 0.2831556250445977,
+      "maintenance": 0.3229474883137507,
+      "dependencies": 17,
+      "dependents": 29,
+      "versions": 143,
+      "weeklyDownloads": 66731,
+      "openIssues": 0,
+      "openPullRequests": 0
+    }
+  },
+  {
+    "name": "marko",
+    "version": "5.21.9",
+    "description": "UI Components + streaming, async, high performance, HTML templating for Node.js and the browser.",
+    "stats": {
+      "lastRelease": 1660236582283,
+      "quality": 0.61393432799718,
+      "popularity": 0.2718582352796671,
+      "maintenance": 0.3333333333333333,
+      "dependencies": 13,
+      "dependents": 162,
+      "versions": 762,
+      "weeklyDownloads": 5926,
+      "openIssues": 0,
+      "openPullRequests": 0
+    }
+  },
+  {
+    "name": "upload-js",
+    "version": "1.48.21",
+    "description": "File Upload Library — Upload.js gives developers AJAX multipart file uploading via XHR 🚀 Comes with Cloud Storage 🌐",
+    "stats": {
+      "lastRelease": 1653809067601,
+      "quality": 0.9629261248411116,
+      "popularity": 0.059417907537893215,
+      "maintenance": 0.3333333333333333,
+      "dependencies": 2,
+      "dependents": 1,
+      "versions": 114,
+      "weeklyDownloads": 10550,
+      "openIssues": 0,
+      "openPullRequests": 0
+    }
+  },
+  {
+    "name": "@dropzone-ui/react",
+    "version": "6.7.14",
+    "description": "The best and most complete React library for managing file uploads. Multilanguage support. Server side support. Material design styles. Code generator on webpage.",
+    "stats": {
+      "lastRelease": 1664303339894,
+      "quality": 0.9781379039157846,
+      "popularity": 0.04442317518574557,
+      "maintenance": 0.3333333333333333,
+      "dependencies": 3,
+      "dependents": 2,
+      "versions": 48,
+      "weeklyDownloads": 2198,
+      "openIssues": 0,
+      "openPullRequests": 0
+    }
+  },
+  {
+    "name": "skeletonic",
+    "version": "1.2.1",
+    "description": "A dead on, lightweight, responsive and modern CSS framework.",
+    "stats": {
+      "lastRelease": 1622160031957,
+      "quality": 0.974252173818653,
+      "popularity": 0.06835700717612365,
+      "maintenance": 0.2860576669577829,
+      "dependencies": 1,
+      "dependents": 0,
+      "versions": 41,
+      "weeklyDownloads": 124,
+      "openIssues": 0,
+      "openPullRequests": 0
+    }
+  }
+]
