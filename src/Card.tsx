@@ -1,4 +1,6 @@
-export default function Card({ name, version, stats }) {
+import { Package } from "./types";
+
+export default function Card({ name, version, stats }: Package) {
   return (
     <div className="card">
       <h2>{name}</h2>
