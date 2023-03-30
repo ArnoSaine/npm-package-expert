@@ -4,20 +4,22 @@ import "./App.css";
 import Card from "./Card";
 
 export default function App() {
-  const [cards, setCards] = useState(packages);
+  const [cards, setCards] = useState(
+    // Use packages data as the initial state
+    packages
+  );
 
   const topCard = cards[0];
+
+  const handleClick = () => {
+    // Move top card to the bottom
+    setCards(([topCard, ...otherCards]) => [...otherCards, topCard]);
+  };
 
   return (
     <div className="App">
       <h1>npm Package Expert</h1>
-      <button
-        onClick={() =>
-          setCards(([topCard, ...otherCards]) => [...otherCards, topCard])
-        }
-      >
-        Next card
-      </button>
+      <button onClick={handleClick}>Next card</button>
       <Card {...topCard} />
     </div>
   );
