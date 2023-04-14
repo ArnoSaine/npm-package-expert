@@ -25,6 +25,7 @@ npm run dev
 3. Pelaajan tehtävä on veikata kortista tietoa, joka on parempi kuin vastapelaajan (tietokoneen) kortissa
    - Suurempi arvo on parempi näissä kentissä:
      - `dependents`
+     - `lastRelease`
      - `weeklyDownloads`
      - `maintenance`
      - `popularity`
