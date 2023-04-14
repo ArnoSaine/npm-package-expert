@@ -21,6 +21,14 @@ export default function App() {
       <h1>npm Package Expert</h1>
       <button onClick={handleClick}>Next card</button>
       <Card {...topCard} />
+      {/*
+        <Card {...topCard} /> is a shorthand syntax for:
+        <Card
+          name={topCard.name}
+          version={topCard.version}
+          stats={topCard.stats}
+        />
+      */}
     </div>
   );
 }
